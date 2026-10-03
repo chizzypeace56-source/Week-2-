@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+    <title>Students Registration</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    </head>
+    
+<body>
+    <h1>Students Registration form</h1>
+    
+    <form action="/register" method ="post">
+    
+    <label>Full name:</label>
+    <input type="text" id="full name" name="full name" required>
+    
+    <br></br>
+    
+    <label for="email">Email:</label>
+    <input type="email"id="email" name="email" required>
+    
+    <br></br>
+    
+    <label for="password">password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <br><br>
+   
+   <label>Gender:</label>
+   <label for="Male">Male</label>
+   <input type="radio"name="Gender" value= male >
+   
+   <label for="Female">Female</label>
+   <input type="radio"name="Gender">
+   
+   <br></br>
+   
+   <label for="country">country:</label>
+   <select id="country" name = country>
+       
+       <option value="nigera">Nigeria</option>
+       <option value="ghana">Ghana</option>
+       <option value="kenya">Kenya</option>
+       <option value="south africa">South Africa</option>
+       
+   </select>
+   
+   <br></br>
+   <label>About Yourself;</label>
+   
+   <textarea Placeholder ="Tell us a little about yourself"></textarea>
+  
+  <br></br>
+       
+       I agree to the terms and conditions 
+        <input type="checkbox" required> 
+        
+        <br></br>
+       <button type="submit">Register</button>
+       
+     </form>
+     
+     <h2>website search</h2>
+     
+     <form action="search" method="get">
+    
+    <input type="text" placeholder="search...">
+    
+    <button type="submit">search</button>
+    
+    <h2>What I learnt</h2>
+    
+    <p>1.What does the action attribute do ?</p1>
+    <p>An action attribute gives additional information about an HTML element.</p>
+    
+    <p>2.What does method attribute do ?</p2>
+    <p>Method attribute, specifies how the browser should submit the form data.</p>
+    
+    <p>3.Why is GET commonly useful for a search form ?</p3>
+    <p>It is useful for form because the search information can appear in URL.</p>
+    
+    <p>4.Why might post be used for a registration form?</p>
+    <p>Post is commonly used for sending registration information to a server.</p>
+    <p>5.Does using POST automatically make information secure?</p>
+    <p>No, it doesn't.</p>
+    <p> Why not ?</p>
+    <p>POST sends form data in the request body rather than putting it in the URL.</p>
+    </form>
+    </body>
+    
+    </html>
+    
